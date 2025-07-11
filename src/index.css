@@ -2,6 +2,12 @@
 
 html, body {
     background-color: #0c0a09;
+    background-image: url('./images/background1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .caudex-regular {
