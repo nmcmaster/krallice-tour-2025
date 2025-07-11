@@ -27,12 +27,27 @@ function App() {
 					date="July 18"
 					location="Indianapolis"
 				/>
-				<Row venue="Spirit Hall" date="July 19" location="" />
-				<Row venue="" date="July 20" location="" />
-				<Row venue="The " date="July 21" location="" />
-				<Row venue=" Steel" date="July 22" location="" />
-				<Row venue="The " date="July 23" location="" />
-				<Row venue="The " date="July 24" location="" />
+				<Row
+					venue="Spirit Hall"
+					date="July 19"
+					location="Pittsburgh, PA"
+				/>
+				<Row venue="Portal" date="July 20" location="Louisville, KY" />
+				<Row
+					venue="Delmar Hall"
+					date="July 21"
+					location="St. Louis, MO"
+				/>
+				<Row
+					venue="The Granada"
+					date="July 22"
+					location="Lawrence, KS"
+				/>
+				<Row
+					venue="Varsity Theater"
+					date="July 23"
+					location="Minneapolis, MN"
+				/>
 				<Row
 					venue="Fire in the Mountains"
 					date="July 25"
@@ -79,7 +94,7 @@ function App() {
 					date="August 6"
 					location="San Francisco, CA"
 				/>
-				<Row venue="The Wiltern" date="August 7" location="" />
+				<Row venue="The Wiltern" date="August 7" location="Los Angeles, CA" />
 				<Row
 					venue="Flag like Revolution"
 					date="August 8"

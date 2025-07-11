@@ -27,11 +27,11 @@ export default function Row({
 			<div>
 	
 				<div className="text-right">{date} {time}</div>
-				<div>
+				{link && <div>
 					<a className="text-red-500" href={link}>
 						Get Tickets
 					</a>
-				</div>
+				</div>}
 			</div>
 		</div>
 	);
