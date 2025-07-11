@@ -31,7 +31,7 @@ function App() {
 				<Row
 					venue="Old National Center"
 					date="July 18"
-					location="Indianapolis"
+					location="Indianapolis, IN"
                     withBI
 				/>
 				<Row
