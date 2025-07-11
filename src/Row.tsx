@@ -4,8 +4,8 @@ export default function Row({
 	location,
 	link,
 	time,
-    withBI = false,
-    ambient = false,
+	withBI = false,
+	ambient = false,
 }: {
 	venue: string;
 	date: string;
@@ -17,21 +17,38 @@ export default function Row({
 	ambient?: boolean;
 }) {
 	return (
-		<div className="flex text-lg text-gray-50 mx-auto mb-2 justify-between p-4 bg-stone-900 rounded-lg">
-		{ambient}
-        	<div>
-				<div>{venue} {withBI && <span className="text-amber-200 text-xs sm:text-md ml-1" >w/Blood Incantation</span>}</div>
-				<div className="text-sm text-gray-500 font-semibold">{location}</div>
-		
+		<div className="text-gray-50 mx-auto mb-2 justify-between p-4 bg-stone-900 rounded-lg">
+			<div className="flex justify-between mb-0.5">
+				{" "}
+				<div className="text-lg">{venue} </div>
+				<div className="text-right">
+					{date} {time}
+				</div>
 			</div>
-			<div>
-	
-				<div className="text-right">{date} {time}</div>
-				{link && <div>
-					<a className="text-red-600 font-semibold text-sm text-right" href={link}>
-						Tickets
-					</a>
-				</div>}
+			{withBI && (
+				<div className="text-amber-200 text-xs leading-2 mb-1.5 sm:text-md">
+					w/Blood Incantation
+				</div>
+			)}
+			{ambient && (
+				<div className="text-green-600 font-bold text-xs sm:text-md mt-1.5">
+					** Ambient Set **
+				</div>
+			)}
+			<div className="flex justify-between">
+				<div className="text-sm text-gray-400 font-semibold">
+					{location}
+				</div>
+				<div>
+					{link && (
+						<a
+							className="text-red-600 block font-semibold text-sm text-right"
+							href={link}
+						>
+							Tickets
+						</a>
+					)}
+				</div>
 			</div>
 		</div>
 	);
