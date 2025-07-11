@@ -20,7 +20,7 @@ export default function Row({
 		<div className="flex text-lg text-gray-50 mx-auto mb-2 justify-between p-4 bg-stone-900 rounded-lg">
 		{ambient}
         	<div>
-				<div>{venue} {withBI && <span className="text-amber-200">with Blood Incantation</span>}</div>
+				<div>{venue} {withBI && <span className="text-amber-200 text-sm ml-1" >w/Blood Incantation</span>}</div>
 				<div>{location}</div>
 		
 			</div>
