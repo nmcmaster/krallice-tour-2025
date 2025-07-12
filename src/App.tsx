@@ -1,10 +1,11 @@
 import kralogo from "./images/krallicelogo.png";
 import Row from "./Row";
+import footer from "./images/galagaFooter.png";
 
 function App() {
 	return (
 		<>
-			<main className="md:px-0 px-3 md:w-2/3 mx-auto font-serif text-gray-100 mb-12">
+			<main className="md:px-0 px-3 md:w-2/3 mx-auto font-serif text-gray-100 mb-6">
 				<img className="block mx-auto mt-4 w-1/3" src={kralogo} />
 				<h1 className="text-2xl md:text-5xl text-center md:mb-6 mb-2 caudex-regular">
 					KRALLICE MEGA TOUR 2025{" "}
@@ -155,6 +156,7 @@ function App() {
 					location="Colorado Springs, CO"
 					link="https://www.ticketweb.com/event/krallice-seance-black-sheep-tickets/13850174"
 				/>
+				<img src={footer} className="mx-auto w-56 rounded-4xl shadow-2xl mt-5"  />
 			</main>
 		</>
 	);
