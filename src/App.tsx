@@ -58,12 +58,14 @@ function App() {
 					date="July 22"
 					location="Lawrence, KS"
                     withBI
+					link="https://www.etix.com/ticket/p/86289737/blood-incantation-lawrence-the-granada"
 				/>
 				<Row
 					venue="Varsity Theater"
 					date="July 23"
 					location="Minneapolis, MN"
                     withBI
+					link="https://www.ticketmaster.com/event/060062B2037C5BE8"
 				/>
 				<Row
 					venue="Fire in the Mountains"
@@ -71,6 +73,7 @@ function App() {
 					location="Glacier Park, MT"
                     ambient
                     withBI
+					link="https://events.humanitix.com/fire-in-the-mountains"
 				/>
 				<Row venue="Monks Bar" date="July 27" location="Missoula, MI" />
 				<Row
@@ -78,12 +81,14 @@ function App() {
 					date="July 29"
 					location="Edmonton, AB"
                     withBI
+					link="https://www.ticketweb.ca/event/blood-incantation-union-hall-tickets/14487343"
 				/>
 				<Row
 					venue="The Palace Theatre"
 					date="July 30"
 					location="Calgary, AB"
                     withBI
+					link="https://www.ticketweb.ca/event/blood-incantation-absolute-elsetour-north-the-palace-theatre-tickets/14486893"
 				/>
 				<Row
 					venue="Temple Theatre"
@@ -91,18 +96,21 @@ function App() {
 					location="Tacoma, WA"
                     withBI
                     ambient
+					link="https://www.etix.com/ticket/p/63074459/blood-incantation-timewave-zero-set-tacoma-temple-theatre"
 				/>
 				<Row
 					venue="Temple Theatre"
 					date="August 2"
 					location="Tacoma, WA"
                     withBI
+					link="https://www.etix.com/ticket/p/89389989/blood-incantation-tacoma-temple-theatre"
 				/>
 				<Row
 					venue="Roseland Theater"
 					date="August 3"
 					location="Portland, OR"
                     withBI
+					link="https://www.etix.com/ticket/p/98386899/bloodincantation-absolute-elsetour-north-america-2025-portland-roseland-theater"
 				/>
 				<Row
 					venue="Savage Henry Comedy Club"
@@ -119,6 +127,7 @@ function App() {
 					date="August 6"
 					location="San Francisco, CA"
                     withBI
+					link="https://www.axs.com/events/978895/blood-incantation-tickets"
 				/>
 				<Row
 					venue="The Wiltern"
