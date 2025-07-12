@@ -36,7 +36,7 @@ export default function Row({
 				</div>
 			)}
 			<div className="flex justify-between">
-				<div className="text-sm text-gray-300 font-semibold">
+				<div className="text-sm text-gray-500 font-semibold">
 					{location}
 				</div>
 				<div>
