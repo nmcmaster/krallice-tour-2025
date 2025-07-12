@@ -4,9 +4,9 @@ import Row from "./Row";
 function App() {
 	return (
 		<>
-			<main className="md:px-0 px-4 md:w-2/3 mx-auto font-serif text-gray-100 mb-12">
-				<img className="block mx-auto w-1/3" src={kralogo} />
-				<h1 className="text-5xl text-center mb-6 caudex-regular">
+			<main className="md:px-0 px-3 md:w-2/3 mx-auto font-serif text-gray-100 mb-12">
+				<img className="block mx-auto mt-4 w-1/3" src={kralogo} />
+				<h1 className="text-xl md:text-5xl text-center md:mb-6 mb-2 caudex-regular">
 					KRALLICE MEGA TOUR 2025{" "}
 				</h1>
 				<Row
@@ -20,6 +20,7 @@ function App() {
 					venue="The Roxy"
 					date="July 15"
 					location="Lakewood, OH"
+					link="https://dice.fm/event/wwby9x-blood-incantation-15th-jul-mahalls-lakewood-the-roxy-at-mahalls-lakewood-tickets"
 					withBI
 				/>
 				<Row venue="Reggies" date="July 16" location="Chicago, IL" />
@@ -29,15 +30,17 @@ function App() {
 					location="Milwaukee, WI"
 				/>
 				<Row
-					venue="Old National Center"
+					venue="Old National Centre"
 					date="July 18"
 					location="Indianapolis, IN"
+					link="https://www.ticketmaster.com/event/050062B0E1846327"
                     withBI
 				/>
 				<Row
 					venue="Spirit Hall"
 					date="July 19"
 					location="Pittsburgh, PA"
+					link="https://www.ticketmaster.com/event/160062B39F37156B"
                     withBI
 				/>
 				<Row venue="Portal" date="July 20" location="Louisville, KY" />
@@ -45,6 +48,7 @@ function App() {
 					venue="Delmar Hall"
 					date="July 21"
 					location="St. Louis, MO"
+					link="https://www.ticketmaster.com/event/060062B0A2B059CA"
                     withBI
 				/>
 				<Row
@@ -80,14 +84,14 @@ function App() {
                     withBI
 				/>
 				<Row
-					venue="Temple Theater"
+					venue="Temple Theatre"
 					date="August 1"
 					location="Tacoma, WA"
                     withBI
                     ambient
 				/>
 				<Row
-					venue="Temple Theater"
+					venue="Temple Theatre"
 					date="August 2"
 					location="Tacoma, WA"
                     withBI
@@ -121,7 +125,7 @@ function App() {
                     withBI
 				/>
 				<Row
-					venue="Flag like Revolution"
+					venue="Flag Bike Revolution"
 					date="August 8"
 					location="Flagstaff, AZ"
 				/>

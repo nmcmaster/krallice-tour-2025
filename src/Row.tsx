@@ -17,7 +17,7 @@ export default function Row({
 	ambient?: boolean;
 }) {
 	return (
-		<div className="text-gray-50 mx-auto mb-2 justify-between p-4 bg-stone-900 rounded-lg">
+		<div className="text-gray-50 mx-auto mb-2 justify-between p-4 bg-stone-900/70 rounded-lg">
 			<div className="flex justify-between mb-0.5">
 				{" "}
 				<div className="text-lg">{venue} </div>
@@ -36,13 +36,13 @@ export default function Row({
 				</div>
 			)}
 			<div className="flex justify-between">
-				<div className="text-sm text-gray-400 font-semibold">
+				<div className="text-sm text-gray-300 font-semibold">
 					{location}
 				</div>
 				<div>
 					{link && (
 						<a
-							className="text-red-600 block font-semibold text-sm text-right"
+							className="text-red-600 block font-bold text-sm text-right"
 							href={link}
 						>
 							Tickets
