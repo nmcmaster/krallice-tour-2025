@@ -121,6 +121,7 @@ function App() {
 					venue="Starlet above Harlow's"
 					date="August 5"
 					location="Sacramento, CA"
+					link="https://www.etix.com/ticket/p/67858900/krallicewith-sunrot-and-couch-slut-sacramento-the-starlet-room"
                     				/>
 				<Row
 					venue="The Regency Ballroom"
@@ -134,21 +135,25 @@ function App() {
 					date="August 7"
 					location="Los Angeles, CA"
                     withBI
+					link="https://www.ticketmaster.com/event/090062B2C9A3440F"
 				/>
 				<Row
 					venue="Flag Bike Revolution"
 					date="August 8"
 					location="Flagstaff, AZ"
+
 				/>
 				<Row
 					venue="Sister"
 					date="August 9"
 					location="Albuquerque, NM"
+					link="https://www.eventbrite.com/e/krallice-tickets-1470988589469"
 				/>
 				<Row
 					venue="Black Sheep"
 					date="August 10"
 					location="Colorado Springs, CO"
+					link="https://www.ticketweb.com/event/krallice-seance-black-sheep-tickets/13850174"
 				/>
 			</main>
 		</>
