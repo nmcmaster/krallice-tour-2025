@@ -6,7 +6,7 @@ function App() {
 		<>
 			<main className="md:px-0 px-3 md:w-2/3 mx-auto font-serif text-gray-100 mb-12">
 				<img className="block mx-auto mt-4 w-1/3" src={kralogo} />
-				<h1 className="text-xl md:text-5xl text-center md:mb-6 mb-2 caudex-regular">
+				<h1 className="text-2xl md:text-5xl text-center md:mb-6 mb-2 caudex-regular">
 					KRALLICE MEGA TOUR 2025{" "}
 				</h1>
 				<Row
