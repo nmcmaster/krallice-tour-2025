@@ -23,11 +23,12 @@ function App() {
 					link="https://dice.fm/event/wwby9x-blood-incantation-15th-jul-mahalls-lakewood-the-roxy-at-mahalls-lakewood-tickets"
 					withBI
 				/>
-				<Row venue="Reggies" date="July 16" location="Chicago, IL" />
+				<Row venue="Reggies" date="July 16" location="Chicago, IL"  link="https://www.livenation.com/event/1718vxG6GMCvZWI/krallice-the-flying-luttenbachers"/>
 				<Row
 					venue="Club Garibaldi"
 					date="July 17"
 					location="Milwaukee, WI"
+					link="https://www.etix.com/ticket/p/98993780/krallice-niveous-nicholas-elert-milwaukee-club-garibaldi-milwaukee"
 				/>
 				<Row
 					venue="Old National Centre"
@@ -35,6 +36,7 @@ function App() {
 					location="Indianapolis, IN"
 					link="https://www.ticketmaster.com/event/050062B0E1846327"
                     withBI
+			
 				/>
 				<Row
 					venue="Spirit Hall"

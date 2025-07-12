@@ -42,7 +42,7 @@ export default function Row({
 				<div>
 					{link && (
 						<a
-							className="text-red-600 block font-bold text-sm text-right"
+							className="text-red-600 block font-bold text-right"
 							href={link}
 						>
 							Tickets
