@@ -3,6 +3,8 @@ import Row from "./Row";
 import footer from "./images/galagaFooter.png";
 import portal from "./images/portal-july-20.jpg";
 import garibaldi from "./images/garibaldi-july-17.jpg";
+import tacomaHeavy from "./images/tacoma-august-2.png";
+import tacomaAmbient from "./images/tacoma-august-1.jpg";
 
 function App() {
 	const flyer = "rounded-xl shadow-2xl"
@@ -163,10 +165,12 @@ function App() {
 					location="Colorado Springs, CO"
 					link="https://www.ticketweb.com/event/krallice-seance-black-sheep-tickets/13850174"
 				/>
-				<div className="space-y-5">
+				<div className="space-y-6 mt-8">
 					{" "}
 					<img src={garibaldi} className={flyer} alt="Club Garibaldi" />
 					<img src={portal} className={flyer} alt="Portal" />
+				<img src={tacomaHeavy} className={flyer} alt="Tacoma heavy set" />
+				<img src={tacomaAmbient} className={flyer} alt="Tacoma ambient set" />
 				</div>
 
 				<img
