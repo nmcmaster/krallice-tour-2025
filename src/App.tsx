@@ -7,7 +7,7 @@ import tacomaHeavy from "./images/tacoma-august-2.png";
 import tacomaAmbient from "./images/tacoma-august-1.jpg";
 
 function App() {
-	const flyer = "rounded-xl shadow-2xl"
+	const flyer = "rounded-xl shadow-2xl";
 
 	return (
 		<>
@@ -56,7 +56,12 @@ function App() {
 					link="https://www.ticketmaster.com/event/160062B39F37156B"
 					withBI
 				/>
-				<Row venue="Portal" date="July 20" location="Louisville, KY" />
+				<Row
+					venue="Portal"
+					date="July 20"
+					location="Louisville, KY"
+					link="https://dice.fm/event/k6eog9-krallice-the-sharp-stars-sinistrum-atrophic-20th-jul-portal-louisville-tickets"
+				/>
 				<Row
 					venue="Delmar Hall"
 					date="July 21"
@@ -167,10 +172,22 @@ function App() {
 				/>
 				<div className="space-y-6 mt-8">
 					{" "}
-					<img src={garibaldi} className={flyer} alt="Club Garibaldi" />
+					<img
+						src={garibaldi}
+						className={flyer}
+						alt="Club Garibaldi"
+					/>
 					<img src={portal} className={flyer} alt="Portal" />
-				<img src={tacomaHeavy} className={flyer} alt="Tacoma heavy set" />
-				<img src={tacomaAmbient} className={flyer} alt="Tacoma ambient set" />
+					<img
+						src={tacomaHeavy}
+						className={flyer}
+						alt="Tacoma heavy set"
+					/>
+					<img
+						src={tacomaAmbient}
+						className={flyer}
+						alt="Tacoma ambient set"
+					/>
 				</div>
 
 				<img
