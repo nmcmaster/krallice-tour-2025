@@ -5,6 +5,7 @@ import portal from "./images/portal-july-20.jpg";
 import garibaldi from "./images/garibaldi-july-17.jpg";
 import tacomaHeavy from "./images/tacoma-august-2.png";
 import tacomaAmbient from "./images/tacoma-august-1.jpg";
+import tourPoster from "./images/tour-poster-2025.png";
 
 function App() {
 	const flyer = "rounded-xl shadow-2xl";
@@ -91,7 +92,13 @@ function App() {
 					withBI
 					link="https://events.humanitix.com/fire-in-the-mountains"
 				/>
-				<Row venue="Monks Bar" date="July 27" location="Missoula, MI" link="https://www.eventbrite.com/e/krallice-live-at-monks-tickets-1497262204559" openers="Jules Jenson"/>
+				<Row
+					venue="Monks Bar"
+					date="July 27"
+					location="Missoula, MI"
+					link="https://www.eventbrite.com/e/krallice-live-at-monks-tickets-1497262204559"
+					openers="Jules Jenson"
+				/>
 				<Row
 					venue="Union Hall"
 					date="July 29"
@@ -146,6 +153,7 @@ function App() {
 					location="San Francisco, CA"
 					withBI
 					link="https://www.axs.com/events/978895/blood-incantation-tickets"
+					openers="Dispirit"
 				/>
 				<Row
 					venue="The Wiltern"
@@ -153,6 +161,7 @@ function App() {
 					location="Los Angeles, CA"
 					withBI
 					link="https://www.ticketmaster.com/event/090062B2C9A3440F"
+					openers="Steve Roach, Cynic"
 				/>
 				<Row
 					venue="Flag Bike Revolution"
@@ -189,6 +198,11 @@ function App() {
 						src={tacomaAmbient}
 						className={flyer}
 						alt="Tacoma ambient set"
+					/>
+					<img
+						src={tourPoster}
+						className="block mx-auto rounded-lg shadow-2xl"
+						alt="Krallice July 2025 tour flyer"
 					/>
 				</div>
 

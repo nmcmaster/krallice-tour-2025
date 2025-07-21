@@ -56,12 +56,12 @@ export default function Row({
 				</div>
 			)}
 			{openers && (
-				<div className="text-amber-200 text-xs leading-2 mb-1.5 sm:text-md">
+				<div className="text-green-400 text-xs leading-2 mb-1.5 sm:text-md">
 					w/{openers}
 				</div>
 			)}
 			{ambient && (
-				<div className="text-green-600 font-bold text-xs sm:text-md mt-1.5">
+				<div className="text-green-400 font-bold text-xs sm:text-md mt-1.5">
 					** Ambient Set **
 				</div>
 			)}
