@@ -1,3 +1,5 @@
+import './shimmer.css';
+
 export default function Row({
 	venue,
 	date,
@@ -16,26 +18,33 @@ export default function Row({
 	withBI?: boolean;
 	ambient?: boolean;
 }) {
-	const isPastShow = () => {
-		const currentYear = new Date().getFullYear();
-		const showDate = new Date(`${date}, ${currentYear}`);
-		const today = new Date();
+	    const getShowStatus = () => {
+        const currentYear = new Date().getFullYear();
+        const showDate = new Date(`${date}, ${currentYear}`);
+        const today = new Date();
 
-		// Reset time portion to compare dates only
-		today.setHours(0, 0, 0, 0);
-		showDate.setHours(0, 0, 0, 0)
+        // Reset time portion to compare dates only
+        today.setHours(0, 0, 0, 0);
+        showDate.setHours(0, 0, 0, 0);
 
-		return showDate < today;	
-	}
+        if (showDate < today) return "past";
+        if (showDate.getTime() === today.getTime()) return "today";
+        return "upcoming";
+    }
 
-	const pastShowClass = isPastShow() ? "line-through opacity-70" : "";
+
+	const showStatus = getShowStatus();
+	const pastShowClass = showStatus === "past" ? "line-through opacity-70" : "";
+	const isTodayShow  = showStatus === "today";
+
 
 	return (
 		<div className="text-gray-50 mx-auto mb-2 justify-between p-4 bg-stone-900/70 rounded-lg">
 			<div className="flex justify-between mb-0.5">
-				{" "}
-				<div className={`text-lg ${pastShowClass}`}>{venue} </div>
-				<div className={`text-right ${pastShowClass}`}>
+			   <div className={`text-lg ${pastShowClass} ${isTodayShow ? "shimmer-effect" : ""}`}>
+                    {venue}
+                </div>
+				<div className={`text-right ${pastShowClass} ${isTodayShow ? "shimmer-effect" : ""}`}>
 					{date} {time}
 				</div>
 			</div>
