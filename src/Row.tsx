@@ -16,12 +16,26 @@ export default function Row({
 	withBI?: boolean;
 	ambient?: boolean;
 }) {
+	const isPastShow = () => {
+		const currentYear = new Date().getFullYear();
+		const showDate = new Date(`${date}, ${currentYear}`);
+		const today = new Date();
+
+		// Reset time portion to compare dates only
+		today.setHours(0, 0, 0, 0);
+		showDate.setHours(0, 0, 0, 0)
+
+		return showDate < today;	
+	}
+
+	const pastShowClass = isPastShow() ? "line-through opacity-70" : "";
+
 	return (
 		<div className="text-gray-50 mx-auto mb-2 justify-between p-4 bg-stone-900/70 rounded-lg">
 			<div className="flex justify-between mb-0.5">
 				{" "}
-				<div className="text-lg">{venue} </div>
-				<div className="text-right">
+				<div className={`text-lg ${pastShowClass}`}>{venue} </div>
+				<div className={`text-right ${pastShowClass}`}>
 					{date} {time}
 				</div>
 			</div>
@@ -42,7 +56,7 @@ export default function Row({
 				<div>
 					{link && (
 						<a
-							className="text-red-600 block font-bold text-right"
+							className={`text-red-600 block font-bold text-right ${pastShowClass}`}
 							href={link}
 						>
 							Tickets
