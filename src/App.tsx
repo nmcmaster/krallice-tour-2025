@@ -91,7 +91,7 @@ function App() {
 					withBI
 					link="https://events.humanitix.com/fire-in-the-mountains"
 				/>
-				<Row venue="Monks Bar" date="July 27" location="Missoula, MI" />
+				<Row venue="Monks Bar" date="July 27" location="Missoula, MI" link="https://www.eventbrite.com/e/krallice-live-at-monks-tickets-1497262204559" openers="Jules Jenson"/>
 				<Row
 					venue="Union Hall"
 					date="July 29"
@@ -138,6 +138,7 @@ function App() {
 					date="August 5"
 					location="Sacramento, CA"
 					link="https://www.etix.com/ticket/p/67858900/krallicewith-sunrot-and-couch-slut-sacramento-the-starlet-room"
+					openers="Couch Slut, Sunrot"
 				/>
 				<Row
 					venue="The Regency Ballroom"
@@ -169,6 +170,7 @@ function App() {
 					date="August 10"
 					location="Colorado Springs, CO"
 					link="https://www.ticketweb.com/event/krallice-seance-black-sheep-tickets/13850174"
+					openers="Seance"
 				/>
 				<div className="space-y-6 mt-8">
 					{" "}

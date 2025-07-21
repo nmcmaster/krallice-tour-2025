@@ -8,6 +8,7 @@ export default function Row({
 	time,
 	withBI = false,
 	ambient = false,
+	openers = '',
 }: {
 	venue: string;
 	date: string;
@@ -17,6 +18,7 @@ export default function Row({
 	link?: string;
 	withBI?: boolean;
 	ambient?: boolean;
+	openers?: string;
 }) {
 	    const getShowStatus = () => {
         const currentYear = new Date().getFullYear();
@@ -51,6 +53,11 @@ export default function Row({
 			{withBI && (
 				<div className="text-amber-200 text-xs leading-2 mb-1.5 sm:text-md">
 					w/Blood Incantation
+				</div>
+			)}
+			{openers && (
+				<div className="text-amber-200 text-xs leading-2 mb-1.5 sm:text-md">
+					w/{openers}
 				</div>
 			)}
 			{ambient && (
