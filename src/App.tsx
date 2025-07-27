@@ -95,9 +95,9 @@ function App() {
 				<Row
 					venue="Monks Bar"
 					date="July 27"
-					location="Missoula, MI"
+					location="Missoula, MT"
 					link="https://www.eventbrite.com/e/krallice-live-at-monks-tickets-1497262204559"
-					openers="Jules Jenson"
+					openers="Jules Jensen"
 				/>
 				<Row
 					venue="Union Hall"
