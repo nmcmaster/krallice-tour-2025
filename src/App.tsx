@@ -100,19 +100,11 @@ function App() {
 					openers="Jules Jensen"
 				/>
 				<Row
-					venue="Union Hall"
+					venue="Starlight Room"
 					date="July 29"
 					location="Edmonton, AB"
-					withBI
-					link="https://www.ticketweb.ca/event/blood-incantation-union-hall-tickets/14487343"
 				/>
-				<Row
-					venue="The Palace Theatre"
-					date="July 30"
-					location="Calgary, AB"
-					withBI
-					link="https://www.ticketweb.ca/event/blood-incantation-absolute-elsetour-north-the-palace-theatre-tickets/14486893"
-				/>
+				<Row venue="Dickens" date="July 30" location="Calgary, AB" />
 				<Row
 					venue="Temple Theatre"
 					date="August 1"
