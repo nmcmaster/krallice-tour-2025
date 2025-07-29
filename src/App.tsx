@@ -100,11 +100,12 @@ function App() {
 					openers="Jules Jensen"
 				/>
 				<Row
-					venue="Starlight Room"
+					venue="The Starlite Room"
 					date="July 29"
 					location="Edmonton, AB"
+					link="https://www.ticketweb.ca/event/krallice-an-evening-the-starlite-room-tickets/13916324?pl=ConcertWorks"
 				/>
-				<Row venue="Dickens" date="July 30" location="Calgary, AB" />
+				<Row venue="Dickens Pub" date="July 30" location="Calgary, AB" link="https://www.ticketweb.ca/event/krallice-an-evening-dickens-pub-tickets/13916334?pl=ConcertWorks" />
 				<Row
 					venue="Temple Theatre"
 					date="August 1"
